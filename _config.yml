@@ -24,12 +24,12 @@ navigation:
     url: /
   - name: About
     url: /about
-  - name: Wang Zhilue
+  - name: Archive
     url: /archive
   - name: Tags
     url: /tags
-  - name: Theme
-    url: https://github.com/AWEEKJ/kiko-now
+  - name: luogu
+    url: www.luogu.org
 
 # Pagination
 paginate: 5
