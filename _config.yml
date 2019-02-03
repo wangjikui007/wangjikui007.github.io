@@ -29,7 +29,7 @@ navigation:
   - name: Tags
     url: /tags
   - name: luogu
-    url: /images/config.png
+    url: https://www.luogu.org/
 
 # Pagination
 paginate: 5
