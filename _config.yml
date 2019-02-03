@@ -29,7 +29,7 @@ navigation:
   - name: Tags
     url: /tags
   - name: luogu
-    url: https://github.com/wangjikui007/wangjikui007.github.io/blob/master/images/first-post.png
+    url: /images/config.png
 
 # Pagination
 paginate: 5
