@@ -43,4 +43,21 @@ layout: default
   </div>
 
   {% include disqus.html %}
+  
+  <div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="https://jjeejj.github.io/js/gitment.js"></script>
+<script>
+var gitment = new Gitment({
+    id: '{{ page.title }}',
+    owner: 'wangjikui007',
+    repo: 'wangjikui007.github.io',
+    oauth: {
+        client_id: '75def820d352d5bd43ae',
+        client_secret: 'c2c4c779a33fd3de33257dedce786e8ef982cce1',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
+  
 </article>
